@@ -11,5 +11,5 @@
 
 @interface UIImage (BIZColorOverlay)
 - (UIImage *)imageWithColorOverlay:(UIColor *)color;
-- (void)removeOverlay;
+- (UIImage *)removeOverlay;
 @end

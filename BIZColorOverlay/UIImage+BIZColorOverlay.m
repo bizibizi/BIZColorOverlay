@@ -38,9 +38,10 @@
     return image;
 }
 
-- (void)removeOverlay
+- (UIImage *)removeOverlay
 {
-    
+    return [self imageWithColorOverlay:[UIColor whiteColor]];
 }
+
 
 @end
