@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  BIZChangeImageColorProgrammaticaly
+//  Example
 //
-//  Created by IgorBizi@mail.ru on 12/9/15.
+//  Created by IgorBizi@mail.ru on 12/16/15.
 //  Copyright © 2015 IgorBizi@mail.ru. All rights reserved.
 //
 
@@ -17,6 +17,12 @@
 
 @implementation ViewController
 
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    [self changeColorButtonAction:nil];
+}
 
 - (IBAction)changeColorButtonAction:(UIButton *)sender
 {

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BIZChangeImageColorProgrammaticaly.xcscheme</key>
+		<key>Example.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7E3FB3581C18854C00716573</key>
+		<key>7E2236F71C219941008DB11A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
