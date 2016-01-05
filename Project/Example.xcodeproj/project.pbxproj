@@ -13,7 +13,7 @@
 		7E2237061C219941008DB11A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2237041C219941008DB11A /* Main.storyboard */; };
 		7E2237081C219941008DB11A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E2237071C219941008DB11A /* Assets.xcassets */; };
 		7E22370B1C219941008DB11A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2237091C219941008DB11A /* LaunchScreen.storyboard */; };
-		7E90E2A51C21F3A000DE4AA7 /* UIImage+BIZColorOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E90E2A41C21F3A000DE4AA7 /* UIImage+BIZColorOverlay.m */; settings = {ASSET_TAGS = (); }; };
+		7E818F9E1C3B4EAA00F43064 /* UIImage+BIZColorOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E818F9D1C3B4EAA00F43064 /* UIImage+BIZColorOverlay.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		7E2237071C219941008DB11A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E22370A1C219941008DB11A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E22370C1C219941008DB11A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E90E2A31C21F3A000DE4AA7 /* UIImage+BIZColorOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BIZColorOverlay.h"; sourceTree = "<group>"; };
-		7E90E2A41C21F3A000DE4AA7 /* UIImage+BIZColorOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BIZColorOverlay.m"; sourceTree = "<group>"; };
+		7E818F9C1C3B4EAA00F43064 /* UIImage+BIZColorOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BIZColorOverlay.h"; sourceTree = "<group>"; };
+		7E818F9D1C3B4EAA00F43064 /* UIImage+BIZColorOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BIZColorOverlay.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 		7E2236EF1C219941008DB11A = {
 			isa = PBXGroup;
 			children = (
-				7E90E2A21C21F3A000DE4AA7 /* BIZColorOverlay */,
+				7E818F9B1C3B4EAA00F43064 /* Classes */,
 				7E2236FA1C219941008DB11A /* Example */,
 				7E2236F91C219941008DB11A /* Products */,
 			);
@@ -83,14 +83,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7E90E2A21C21F3A000DE4AA7 /* BIZColorOverlay */ = {
+		7E818F9B1C3B4EAA00F43064 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7E90E2A31C21F3A000DE4AA7 /* UIImage+BIZColorOverlay.h */,
-				7E90E2A41C21F3A000DE4AA7 /* UIImage+BIZColorOverlay.m */,
+				7E818F9C1C3B4EAA00F43064 /* UIImage+BIZColorOverlay.h */,
+				7E818F9D1C3B4EAA00F43064 /* UIImage+BIZColorOverlay.m */,
 			);
-			name = BIZColorOverlay;
-			path = ../BIZColorOverlay;
+			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,7 +165,7 @@
 			files = (
 				7E2237031C219941008DB11A /* ViewController.m in Sources */,
 				7E2237001C219941008DB11A /* AppDelegate.m in Sources */,
-				7E90E2A51C21F3A000DE4AA7 /* UIImage+BIZColorOverlay.m in Sources */,
+				7E818F9E1C3B4EAA00F43064 /* UIImage+BIZColorOverlay.m in Sources */,
 				7E2236FD1C219941008DB11A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
