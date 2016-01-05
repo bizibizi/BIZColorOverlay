@@ -11,7 +11,7 @@ BIZColorOverlay is a Category that adds capabilities of changing color to UIImag
 # Installation
 
 ### Manually
-- Copy ```BIZColorOverlay``` folder to your project 
+- Copy ```Classes``` folder to your project 
 
 ### From CocoaPods:
 ```objective-c
